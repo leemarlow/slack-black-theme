@@ -663,9 +663,12 @@ select {
    background-color: transparent !important;
 }
 
+.p-channel_sidebar {
+  background-color: var(--background-elevated) !important;
+}
+
 /* scroll border fix */
 .client_channels_list_container {
-   background-color: var(--background-elevated) !important;
    border-right: none;
 }
 
