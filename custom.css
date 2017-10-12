@@ -653,7 +653,8 @@ select {
   background-color: var(--background-elevated) !important;
 }
 
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel:hover {
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel:hover,
+.p-channel_sidebar__link--selected, .p-channel_sidebar__link:hover {
   background-color: var(--text-elevated) !important;
 }
 
