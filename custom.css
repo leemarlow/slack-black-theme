@@ -649,6 +649,14 @@ select {
    background-color: transparent !important;
 }
 
+.p-channel_sidebar {
+  background-color: var(--background-elevated) !important;
+}
+
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel:hover {
+  background-color: var(--text-elevated) !important;
+}
+
 /* profile */
 #fs_modal #fs_modal_footer {
    background-color:var(--background-elevated)
@@ -662,14 +670,6 @@ select {
    color: transparent !important;
    border: 1px solid var(--scrollbar-border) !important;
    background-color: transparent !important;
-}
-
-.p-channel_sidebar {
-  background-color: var(--background-elevated) !important;
-}
-
-.p-channel_sidebar__channel--selected {
-  background-color: var(--text-elevated) !important;
 }
 
 /* scroll border fix */
