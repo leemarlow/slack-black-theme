@@ -665,6 +665,7 @@ select {
 
 /* scroll border fix */
 .client_channels_list_container {
+   background-color: var(--background-elevated) !important;
    border-right: none;
 }
 
