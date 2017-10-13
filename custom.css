@@ -706,5 +706,5 @@ ts-jumper ts-jumper-container {
 }
 
 #edit_topic_trigger {
-  display: none;
+  display: none !important;
 }
