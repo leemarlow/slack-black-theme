@@ -721,5 +721,5 @@ ts-jumper ts-jumper-container {
 }
 
 .channel_page_notif_prefs p {
-  color: var(--text);
+  color: var(--text) !important;
 }
