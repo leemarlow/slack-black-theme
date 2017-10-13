@@ -713,7 +713,7 @@ ts-jumper ts-jumper-container {
 
 /* channel details */
 .greigh.mini.black {
-  color: #717274;
+  color: #717274 !important;
 }
 
 .c-member__display-name {
