@@ -704,3 +704,7 @@ ts-jumper ts-jumper-container {
   background-color: transparent;
   border-color: #717274;
 }
+
+#edit_topic_trigger {
+  display: none;
+}
