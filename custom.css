@@ -705,5 +705,5 @@ ts-jumper ts-jumper-container {
 }
 
 #edit_topic_container:hover > #edit_topic_inner::before {
-  border-color: var(--text);
+  border-color: var(--text) !important;
 }
