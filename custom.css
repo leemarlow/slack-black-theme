@@ -725,5 +725,5 @@ ts-jumper ts-jumper-container {
 }
 
 .channel_desktop_notifs > div:first-of-type, .channel_push_notifs > div:first-of-type {
-  color: #717274;
+  color: #717274 !important;
 }
