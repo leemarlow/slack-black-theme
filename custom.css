@@ -719,3 +719,7 @@ ts-jumper ts-jumper-container {
 .channel_page_member_row:hover {
   background-color: var(--text-elevated);
 }
+
+.channel_page_notif_prefs p {
+  color: var(--text);
+}
