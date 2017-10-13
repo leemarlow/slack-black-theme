@@ -720,7 +720,7 @@ ts-jumper ts-jumper-container {
   background-color: var(--text-elevated);
 }
 
-.snippet_preview {
+.channel_page_shared_files .filetype_icon, .snippet_preview {
   color: var(--text);
 }
 
