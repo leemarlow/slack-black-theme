@@ -708,3 +708,8 @@ ts-jumper ts-jumper-container {
 .channel_topic_container:hover > #edit_topic_trigger {
   display: none;
 }
+
+/* channel details */
+.c-member__display-name {
+  color: var(--text);
+}
