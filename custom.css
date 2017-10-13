@@ -568,7 +568,8 @@ ts-message .reply_bar:hover {
 }
 
 #fs_modal #fs_modal_sidebar a.is_active {
-  border-color: var(--border-bright);
+  /* border-color: var(--border-bright); */
+  border-color: #F00;
 }
 
 
@@ -675,7 +676,7 @@ select {
 
 /* scroll border fix */
 .client_channels_list_container {
-   border-right: #FF0 !important;
+   border-right: none;
 }
 
 /* setting menu fix */
