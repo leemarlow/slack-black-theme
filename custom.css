@@ -701,9 +701,9 @@ ts-jumper ts-jumper-container {
 
 /* header */
 #edit_topic_inner, #edit_topic_inner::before, #channel_topic_text, #channel_topic_text::before {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
-#edit_topic_container:hover {
-  border-color: var(--text) !important;
+#edit_topic_container:hover > #edit_topic_inner::before {
+  border-color: var(--text);
 }
