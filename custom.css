@@ -716,7 +716,7 @@ ts-jumper ts-jumper-container {
 .c-member__display-name,
 .snippet_preview,
 .channel_desktop_notifs, .channel_push_notifs {
-  color: var(--text);
+  color: var(--text) !important;
 }
 
 .channel_page_member_row:hover {
