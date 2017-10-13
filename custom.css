@@ -709,7 +709,8 @@ ts-jumper ts-jumper-container {
   display: none;
 }
 
-#details_toggle {
+#details_toggle.active {
+  background-color: var(--background-elevated);
   border: none;
 }
 
