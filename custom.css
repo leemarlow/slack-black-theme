@@ -712,20 +712,15 @@ ts-jumper ts-jumper-container {
 }
 
 /* channel details */
-.c-member__display-name {
+#details_tab_header,
+.c-member__display-name,
+.snippet_preview,
+.channel_desktop_notifs, .channel_push_notifs {
   color: var(--text);
 }
 
 .channel_page_member_row:hover {
   background-color: var(--text-elevated);
-}
-
-.channel_page_shared_files .filetype_icon, .snippet_preview {
-  color: var(--text);
-}
-
-.channel_desktop_notifs, .channel_push_notifs {
-  color: var(--text);
 }
 
 .channel_desktop_notifs > div:first-of-type, .channel_push_notifs > div:first-of-type {
