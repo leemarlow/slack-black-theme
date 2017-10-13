@@ -700,6 +700,7 @@ ts-jumper ts-jumper-container {
 }
 
 /* header */
-#edit_topic_inner, #edit_topic_inner::before, /* #channel_topic_text, #channel_topic_text::before, #edit_topic_container { */
+#edit_topic_inner { /* #edit_topic_inner::before, /* #channel_topic_text, #channel_topic_text::before, #edit_topic_container { */
   background-color: transparent !important;
+  color: var(--text) !important;
 }
