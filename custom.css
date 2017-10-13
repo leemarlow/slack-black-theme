@@ -716,7 +716,7 @@ ts-jumper ts-jumper-container {
 .c-member__display-name,
 .snippet_preview,
 .channel_desktop_notifs, .channel_push_notifs,
-.channel_prefs__muting_checkbox_label {
+#channel_prefs_dialog p {
   color: var(--text) !important;
 }
 
