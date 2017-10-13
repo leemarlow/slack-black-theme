@@ -714,6 +714,6 @@ ts-jumper ts-jumper-container {
   color: var(--text);
 }
 
-.channel_page_member_row.active {
+.channel_page_member_row:hover {
   background-color: var(--text-elevated);
 }
