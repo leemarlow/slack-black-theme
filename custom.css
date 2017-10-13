@@ -702,4 +702,5 @@ ts-jumper ts-jumper-container {
 /* header */
 #channel_topic_text, #channel_topic_text::before {
   background-color: transparent !important;
+  color: var(--text) !important;
 }
