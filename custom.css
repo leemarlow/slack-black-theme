@@ -517,8 +517,12 @@ ts-message .reply_bar:hover {
 
 #details_toggle.active, #recent_mentions_toggle.active,
 #sli_recap_toggle.active, #stars_toggle.active {
-  background-color: var(--background-elevated);
-  border: 1px solid var(--border-bright);
+  background-color: var(--background-hover);
+}
+
+#details_toggle.active > ts-icon, #recent_mentions_toggle.active > ts-icon,
+#sli_recap_toggle.active > ts-icon, #stars_toggle.active > ts-icon
+  color: var(--text);
 }
 
 #archives_return, .messages_banner {
@@ -707,15 +711,6 @@ ts-jumper ts-jumper-container {
 
 .channel_topic_container:hover > #edit_topic_trigger {
   display: none;
-}
-
-#details_toggle.active {
-  background-color: var(--background-hover);
-  border: none;
-}
-
-#details_toggle.active > ts-icon {
-  color: var(--text);
 }
 
 /* channel details */
