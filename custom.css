@@ -705,6 +705,6 @@ ts-jumper ts-jumper-container {
   border-color: #717274;
 }
 
-#edit_topic_trigger {
-  display: none !important;
+.channel_topic_container:hover > #edit_topic_trigger {
+  display: none;
 }
