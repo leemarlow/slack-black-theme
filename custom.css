@@ -709,6 +709,14 @@ ts-jumper ts-jumper-container {
   display: none;
 }
 
+#details_toggle {
+  border: none;
+}
+
+#details_toggle.active > ts-icon {
+  color: var(--text);
+}
+
 /* channel details */
 .c-member__display-name {
   color: var(--text);
