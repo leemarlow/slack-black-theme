@@ -712,7 +712,7 @@ ts-jumper ts-jumper-container {
 }
 
 /* channel details */
-#details_tab_header,
+/* #details_tab_header, */
 .c-member__display-name,
 .snippet_preview,
 .channel_desktop_notifs, .channel_push_notifs {
