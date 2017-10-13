@@ -704,6 +704,6 @@ ts-jumper ts-jumper-container {
   background-color: transparent;
 }
 
-#edit_topic_container:hover > #edit_topic_inner::before {
-  border-color: var(--text) !important;
+#edit_topic_inner::before {
+  border-color: var(--text);
 }
