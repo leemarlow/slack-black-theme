@@ -712,10 +712,6 @@ ts-jumper ts-jumper-container {
 }
 
 /* channel details */
-.greigh.mini.black {
-  color: #717274 !important;
-}
-
 .c-member__display-name {
   color: var(--text);
 }
@@ -726,4 +722,8 @@ ts-jumper ts-jumper-container {
 
 .channel_desktop_notifs, .channel_push_notifs {
   color: var(--text);
+}
+
+.channel_desktop_notifs > div:first-of-type, .channel_push_notifs > div:first-of-type {
+  color: #717274;
 }
