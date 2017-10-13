@@ -716,7 +716,9 @@ ts-jumper ts-jumper-container {
 .c-member__display-name,
 .snippet_preview,
 .channel_desktop_notifs, .channel_push_notifs,
-#channel_prefs_dialog label, #channel_prefs_dialog p, #channel_prefs_dialog .channel_prefs_notifications_table__row_title {
+#channel_prefs_dialog label, #channel_prefs_dialog p, #channel_prefs_dialog th,
+#channel_prefs_dialog .channel_prefs_notifications_table__row_title,
+#channel_prefs_dialog .notification_prefs_icon {
   color: var(--text) !important;
 }
 
