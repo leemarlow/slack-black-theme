@@ -713,3 +713,7 @@ ts-jumper ts-jumper-container {
 .c-member__display-name {
   color: var(--text);
 }
+
+.channel_page_member_row.active {
+  background-color: var(--text-elevated);
+}
