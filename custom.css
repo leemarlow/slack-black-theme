@@ -720,6 +720,6 @@ ts-jumper ts-jumper-container {
   background-color: var(--text-elevated);
 }
 
-.channel_page_notif_prefs p {
-  color: var(--text) !important;
+.channel_desktop_notifs, .channel_push_notifs {
+  color: var(--text);
 }
