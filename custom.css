@@ -675,7 +675,7 @@ select {
 
 /* scroll border fix */
 .client_channels_list_container {
-   border-right: #FF0;
+   border-right: #FF0 !important;
 }
 
 /* setting menu fix */
