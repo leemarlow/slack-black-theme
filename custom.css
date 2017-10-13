@@ -703,5 +703,4 @@ ts-jumper ts-jumper-container {
 #edit_topic_inner, #edit_topic_inner::before, #channel_topic_text, #channel_topic_text::before, #edit_topic_container {
   background: none !important;
   background-color: transparent !important;
-  color: transparent !important;
 }
