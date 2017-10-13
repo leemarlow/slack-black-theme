@@ -657,7 +657,7 @@ select {
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link--selected, .p-channel_sidebar__link:hover {
-  background-color: var(--text-elevated) !important;
+  background-color: var(--text-hover) !important;
 }
 
 /* profile */
@@ -716,12 +716,12 @@ ts-jumper ts-jumper-container {
 .c-member__display-name,
 .snippet_preview,
 .channel_desktop_notifs, .channel_push_notifs,
-#channel_prefs_dialog p {
+#channel_prefs_dialog label, #channel_prefs_dialog p {
   color: var(--text) !important;
 }
 
 .channel_page_member_row:hover {
-  background-color: var(--text-elevated);
+  background-color: var(--text-hover);
 }
 
 .channel_desktop_notifs > div:first-of-type, .channel_push_notifs > div:first-of-type {
