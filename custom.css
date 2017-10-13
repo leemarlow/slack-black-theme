@@ -699,7 +699,7 @@ ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
 
-/* main container */
-#client_main_con {
-  border-left: #F00 !important;
+/* header */
+#edit_topic_inner {
+  background-color: var(--background) !important;
 }
