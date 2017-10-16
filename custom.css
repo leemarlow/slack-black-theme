@@ -660,8 +660,8 @@ select {
   background-color: var(--text-hover) !important;
 }
 
-#team_menu_user_name {
-  color: var(--background-elevated);
+#team_menu_user_name, .p-channel_sidebar__section_heading_label {
+  color: var(--text);
 }
 
 /* profile */
