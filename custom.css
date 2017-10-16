@@ -72,7 +72,7 @@ ts-jumper input[type="text"],
 }
 
 #client_body::before {
-  border-bottom: 1px solid var(--background) !important;
+  border-bottom: 1px solid transparent !important;
 }
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
