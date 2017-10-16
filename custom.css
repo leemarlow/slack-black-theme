@@ -591,7 +591,7 @@ ts-message .reply_bar:hover {
 
 .c-scrollbar__bar {
   border: 1px solid var(--primary);
-  color: transparent;
+  color: transparent !important;
 }
 
 /* CodeMirror syntax highlighting */
