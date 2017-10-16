@@ -590,7 +590,7 @@ ts-message .reply_bar:hover {
 }
 
 .c-scrollbar__bar {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
 }
 
 /* CodeMirror syntax highlighting */
