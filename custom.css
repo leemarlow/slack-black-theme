@@ -395,10 +395,10 @@ ts-message a.timestamp{
 
 .emoji-sizer {
    /* outline for black-on-transparent emojis */
-   -webkit-filter: drop-shadow( 1px  0 0 var(--background-bright))
+   /*-webkit-filter: drop-shadow( 1px  0 0 var(--background-bright))
                    drop-shadow(-1px  0 0 var(--background-bright))
                    drop-shadow(-0  1px 0 var(--background-bright))
-                   drop-shadow( 0 -1px 0 var(--background-bright));
+                   drop-shadow( 0 -1px 0 var(--background-bright));*/
    margin: 0 !important;
 }
 
