@@ -72,7 +72,7 @@ ts-jumper input[type="text"],
 }
 
 #client_body::before {
-  border-bottom: 1px solid transparent !important;
+  border-bottom: 1px solid var(--background) !important;
 }
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
@@ -583,6 +583,15 @@ ts-message .reply_bar:hover {
 
 #team_menu, #quick_switcher_btn, #team_menu_overlay, #col_channels_overlay {
    border-color: transparent !important;
+}
+
+.c-scrollbar__track::before {
+  z-index: 10000;
+}
+
+.c-scrollbar__bar {
+  border: 1px solid var(--primary);
+  color: transparent;
 }
 
 /* CodeMirror syntax highlighting */
