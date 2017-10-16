@@ -660,6 +660,10 @@ select {
   background-color: var(--text-hover) !important;
 }
 
+#team_menu_user_name {
+  color: var(--background-elevated);
+}
+
 /* profile */
 #fs_modal #fs_modal_footer {
    background-color:var(--background-elevated)
