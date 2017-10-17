@@ -746,3 +746,7 @@ ts-jumper ts-jumper-container {
 #autocomplete_menu {
   background-color: var(--background-elevated);
 }
+
+strong {
+  color: #FFF;
+}
