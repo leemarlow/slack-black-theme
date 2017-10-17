@@ -743,7 +743,7 @@ ts-jumper ts-jumper-container {
 }
 
 /* search bar autocomplete */
-#autocomplete_menu {
+#autocomplete_menu, #autocomplete_menu .autocomplete_menu_scrollable {
   background-color: var(--background-elevated);
 }
 
