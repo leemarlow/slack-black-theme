@@ -752,5 +752,5 @@ ts-jumper ts-jumper-container {
 }
 
 #autocomplete_menu .query_header {
-  background-color: lighten(var(--background-elevated), 10%);
+  background-color: var(--text-hover);
 }
