@@ -741,3 +741,8 @@ ts-jumper ts-jumper-container {
 .channel_desktop_notifs > div:first-of-type, .channel_push_notifs > div:first-of-type {
   color: #717274 !important;
 }
+
+/* search bar autocomplete */
+#autocomplete_menu {
+  background-color: var(--background-elevated);
+}
