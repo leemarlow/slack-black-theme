@@ -748,5 +748,5 @@ ts-jumper ts-jumper-container {
 }
 
 strong {
-  color: #FFF;
+  color: var(--text);
 }
