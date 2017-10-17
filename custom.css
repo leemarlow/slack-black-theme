@@ -575,7 +575,6 @@ ts-message .reply_bar:hover {
 
 
 /* global (left sidebar) */
-
 #channel_scroll_down, #channel_scroll_up {
    background-color: var(--background) !important;
    border: 0 1px 1px 1px solid var(--border-bright) !important;
@@ -583,10 +582,6 @@ ts-message .reply_bar:hover {
 
 #team_menu, #quick_switcher_btn, #team_menu_overlay, #col_channels_overlay {
    border-color: transparent !important;
-}
-
-.c-scrollbar__track::before {
-  z-index: 10000;
 }
 
 .c-scrollbar__bar {
