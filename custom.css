@@ -747,6 +747,10 @@ ts-jumper ts-jumper-container {
   background-color: var(--background-elevated);
 }
 
-strong {
+#autocomplete_menu strong, #autocomplete_menu span {
   color: var(--text);
+}
+
+#autocomplete_menu .query_header {
+  background-color: lighten(var(--background-elevated), 10);
 }
