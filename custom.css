@@ -749,7 +749,8 @@ ts-jumper ts-jumper-container {
 
 #autocomplete_menu strong,
 #autocomplete_menu .from_modifier,
-#autocomplete_menu .channels span {
+#autocomplete_menu .channels span,
+#autocomplete_menu .c-member__secondary-name {
   color: var(--text);
 }
 
